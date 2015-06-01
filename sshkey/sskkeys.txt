@@ -2,6 +2,9 @@ https://help.github.com/articles/generating-ssh-keys/
 
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
+cd ~
+cd ~/.root
+
 cd ~/.ssh
 
 cat github_rsa.pub
